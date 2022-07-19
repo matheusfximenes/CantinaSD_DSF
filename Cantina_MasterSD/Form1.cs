@@ -6,5 +6,16 @@ namespace Cantina_MasterSD
         {
             InitializeComponent();
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PainelAdministrativo painelAdm = new PainelAdministrativo();
+            painelAdm.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AutenticacaoCliente aCliente = new AutenticacaoCliente();
+            aCliente.ShowDialog();
+        }
     }
 }

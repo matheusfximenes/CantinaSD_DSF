@@ -8,10 +8,11 @@ namespace Cantina_MasterSD
 {
     public class Quentinha
     {
-        private String nome;
-        private String descricao;
-        private Decimal preco;
+        private String nome;       
+        private String descricao;  // Conteudo da quentinha
+        private Decimal preco;   // Valor
 
+        //Get e Set para nome
         public String GetNome()
         {
             return this.nome;
@@ -22,6 +23,7 @@ namespace Cantina_MasterSD
             this.nome = nome;
         }
 
+        //Get e Set para Desc
         public String GetDescricao()
         {
             return this.descricao;
@@ -32,6 +34,7 @@ namespace Cantina_MasterSD
             this.descricao = descricao;
         }
 
+        //Get e Set para o valor da quentinha
         public Decimal GetPreco()
         {
             return this.preco;

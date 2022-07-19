@@ -8,11 +8,12 @@ namespace Cantina_MasterSD
 {
     public class Pedido
     {
-        private Cliente cliente;
-        private List<Quentinha> quentinhas = new List<Quentinha>();
-        private String status;
+        private Cliente cliente; // puxa o cliente 
+        private List<Quentinha> quentinhas = new List<Quentinha>(); // lista as quentinhas 
+        private String status;  // andamento do pedido (aqui podemos verificar se pode cancelar ou não)
         private Decimal preco;
 
+        //Get e Set do cliente
         public Cliente GetCliente()
         {
             return this.cliente;
@@ -23,6 +24,7 @@ namespace Cantina_MasterSD
             this.cliente = cliente;
         }
 
+        //Get e Set para listar e retornar a quentinha ou as quentinhas.
         public List<Quentinha> GetQuentinhas()
         {
             return this.quentinhas;
@@ -33,6 +35,7 @@ namespace Cantina_MasterSD
             this.quentinhas = quentinhas;
         }
 
+        //Get e Set para o andamento do pedido
         public String GetStatus()
         {
             return this.status;
@@ -43,6 +46,7 @@ namespace Cantina_MasterSD
             this.status = status;
         }
 
+        //Get e Set do preco
         public Decimal GetPreco()
         {
             return this.preco;
