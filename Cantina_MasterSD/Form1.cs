@@ -6,6 +6,7 @@ namespace Cantina_MasterSD
         {
             InitializeComponent();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             PainelAdministrativo painelAdm = new PainelAdministrativo();

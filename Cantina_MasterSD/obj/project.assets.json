@@ -234,6 +234,37 @@
           }
         }
       },
+      "Momentum.Pm.PortalApi/5.18.3.201": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "3.9.58",
+          "ServiceStack.Text": "3.9.58"
+        },
+        "compile": {
+          "lib/net48/Holzer.Common.dll": {},
+          "lib/net48/Momentum.Common.Configuration.Flags.dll": {},
+          "lib/net48/Momentum.Common.Diagnostics.dll": {},
+          "lib/net48/Momentum.Common.Errors.Reporting.dll": {},
+          "lib/net48/Momentum.Common.Errors.dll": {},
+          "lib/net48/Momentum.Common.Hosting.Abstractions.dll": {},
+          "lib/net48/Momentum.Common.Security.dll": {},
+          "lib/net48/Momentum.Common.Types.dll": {},
+          "lib/net48/Momentum.Pm.PortalApi.Client.Interfaces.dll": {},
+          "lib/net48/Momentum.Pm.PortalApi.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Holzer.Common.dll": {},
+          "lib/net48/Momentum.Common.Configuration.Flags.dll": {},
+          "lib/net48/Momentum.Common.Diagnostics.dll": {},
+          "lib/net48/Momentum.Common.Errors.Reporting.dll": {},
+          "lib/net48/Momentum.Common.Errors.dll": {},
+          "lib/net48/Momentum.Common.Hosting.Abstractions.dll": {},
+          "lib/net48/Momentum.Common.Security.dll": {},
+          "lib/net48/Momentum.Common.Types.dll": {},
+          "lib/net48/Momentum.Pm.PortalApi.Client.Interfaces.dll": {},
+          "lib/net48/Momentum.Pm.PortalApi.Client.dll": {}
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -267,6 +298,29 @@
             "assetType": "native",
             "rid": "win-x86"
           }
+        }
+      },
+      "ServiceStack.Common/3.9.58": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Text": "(, )"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.Common.dll": {},
+          "lib/net35/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Common.dll": {},
+          "lib/net35/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text/3.9.58": {
+        "type": "package",
+        "compile": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Text.dll": {}
         }
       },
       "System.CodeDom/4.7.0": {
@@ -945,6 +999,28 @@
         "version.txt"
       ]
     },
+    "Momentum.Pm.PortalApi/5.18.3.201": {
+      "sha512": "WpAJbwHqQYrWtiZh7OI+R1/rU8+mKIp1aNaVo/HvnjAl6n7xT8JGaiV/n1YyCLR8qDEJeZSRpUaVVr9t+PMemg==",
+      "type": "package",
+      "path": "momentum.pm.portalapi/5.18.3.201",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/Holzer.Common.dll",
+        "lib/net48/Momentum.Common.Configuration.Flags.dll",
+        "lib/net48/Momentum.Common.Diagnostics.dll",
+        "lib/net48/Momentum.Common.Errors.Reporting.dll",
+        "lib/net48/Momentum.Common.Errors.dll",
+        "lib/net48/Momentum.Common.Errors.xml",
+        "lib/net48/Momentum.Common.Hosting.Abstractions.dll",
+        "lib/net48/Momentum.Common.Security.dll",
+        "lib/net48/Momentum.Common.Types.dll",
+        "lib/net48/Momentum.Pm.PortalApi.Client.Interfaces.dll",
+        "lib/net48/Momentum.Pm.PortalApi.Client.dll",
+        "momentum.pm.portalapi.5.18.3.201.nupkg.sha512",
+        "momentum.pm.portalapi.nuspec"
+      ]
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
       "type": "package",
@@ -1006,6 +1082,50 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "ServiceStack.Common/3.9.58": {
+      "sha512": "Js1DSG0cQzJrzm/p9Zr1/u0WmI/WmtXLd4Kyb2JEpEidH3NyPi4BeMAG5YY8Ta5BJb6esewMd3+tvfcD4E8qoQ==",
+      "type": "package",
+      "path": "servicestack.common/3.9.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/ServiceStack.Common.dll",
+        "lib/net35/ServiceStack.Common.xml",
+        "lib/net35/ServiceStack.Interfaces.dll",
+        "lib/net35/ServiceStack.Interfaces.xml",
+        "lib/sl4/README.txt",
+        "lib/sl4/ServiceStack.Common.dll",
+        "lib/sl4/ServiceStack.Common.xml",
+        "lib/sl4/ServiceStack.Interfaces.dll",
+        "lib/sl4/ServiceStack.Interfaces.xml",
+        "lib/sl5/README.txt",
+        "lib/sl5/ServiceStack.Common.dll",
+        "lib/sl5/ServiceStack.Common.xml",
+        "lib/sl5/ServiceStack.Interfaces.dll",
+        "lib/sl5/ServiceStack.Interfaces.xml",
+        "servicestack.common.3.9.58.nupkg.sha512",
+        "servicestack.common.nuspec"
+      ]
+    },
+    "ServiceStack.Text/3.9.58": {
+      "sha512": "v6mzJgZaXxJgsf8ta6+M+b8MEYx6KjqoKIEqyExvcW7RHB9AP6chscSXiGMTU7gBkGDBcJHaku0avusy7JizYw==",
+      "type": "package",
+      "path": "servicestack.text/3.9.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/ServiceStack.Text.XML",
+        "lib/net35/ServiceStack.Text.dll",
+        "lib/sl4-windowsphone71/ServiceStack.Text.WP.XML",
+        "lib/sl4-windowsphone71/ServiceStack.Text.WP.dll",
+        "lib/sl4/ServiceStack.Text.dll",
+        "lib/sl4/ServiceStack.Text.xml",
+        "lib/sl5/ServiceStack.Text.dll",
+        "lib/sl5/ServiceStack.Text.xml",
+        "servicestack.text.3.9.58.nupkg.sha512",
+        "servicestack.text.nuspec"
       ]
     },
     "System.CodeDom/4.7.0": {
@@ -1538,7 +1658,8 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "EntityFramework >= 6.4.4",
-      "Microsoft.EntityFrameworkCore >= 6.0.7"
+      "Microsoft.EntityFrameworkCore >= 6.0.7",
+      "Momentum.Pm.PortalApi >= 5.18.3.201"
     ]
   },
   "packageFolders": {
@@ -1587,6 +1708,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.7, )"
+          },
+          "Momentum.Pm.PortalApi": {
+            "target": "Package",
+            "version": "[5.18.3.201, )"
           }
         },
         "imports": [
@@ -1610,5 +1735,37 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Momentum.Pm.PortalApi 5.18.3.201' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Momentum.Pm.PortalApi",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'ServiceStack.Common 3.9.58' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "ServiceStack.Common",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'ServiceStack.Text 3.9.58' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "ServiceStack.Text",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

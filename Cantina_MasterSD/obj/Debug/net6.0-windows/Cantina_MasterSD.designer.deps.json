@@ -190,6 +190,54 @@
           }
         }
       },
+      "Momentum.Pm.PortalApi/5.18.3.201": {
+        "dependencies": {
+          "ServiceStack.Common": "3.9.58",
+          "ServiceStack.Text": "3.9.58"
+        },
+        "runtime": {
+          "lib/net48/Holzer.Common.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Common.Configuration.Flags.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Common.Diagnostics.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Common.Errors.Reporting.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Common.Errors.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Common.Hosting.Abstractions.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Common.Security.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Common.Types.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Pm.PortalApi.Client.Interfaces.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          },
+          "lib/net48/Momentum.Pm.PortalApi.Client.dll": {
+            "assemblyVersion": "5.18.3.201",
+            "fileVersion": "5.18.3.201"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
@@ -221,6 +269,29 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "ServiceStack.Common/3.9.58": {
+        "dependencies": {
+          "ServiceStack.Text": "3.9.58"
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Common.dll": {
+            "assemblyVersion": "3.9.58.0",
+            "fileVersion": "3.9.58.0"
+          },
+          "lib/net35/ServiceStack.Interfaces.dll": {
+            "assemblyVersion": "3.9.58.0",
+            "fileVersion": "3.9.58.0"
+          }
+        }
+      },
+      "ServiceStack.Text/3.9.58": {
+        "runtime": {
+          "lib/net35/ServiceStack.Text.dll": {
+            "assemblyVersion": "3.9.58.0",
+            "fileVersion": "3.9.58.0"
           }
         }
       },
@@ -539,6 +610,13 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "Momentum.Pm.PortalApi/5.18.3.201": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WpAJbwHqQYrWtiZh7OI+R1/rU8+mKIp1aNaVo/HvnjAl6n7xT8JGaiV/n1YyCLR8qDEJeZSRpUaVVr9t+PMemg==",
+      "path": "momentum.pm.portalapi/5.18.3.201",
+      "hashPath": "momentum.pm.portalapi.5.18.3.201.nupkg.sha512"
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -566,6 +644,20 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "ServiceStack.Common/3.9.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Js1DSG0cQzJrzm/p9Zr1/u0WmI/WmtXLd4Kyb2JEpEidH3NyPi4BeMAG5YY8Ta5BJb6esewMd3+tvfcD4E8qoQ==",
+      "path": "servicestack.common/3.9.58",
+      "hashPath": "servicestack.common.3.9.58.nupkg.sha512"
+    },
+    "ServiceStack.Text/3.9.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v6mzJgZaXxJgsf8ta6+M+b8MEYx6KjqoKIEqyExvcW7RHB9AP6chscSXiGMTU7gBkGDBcJHaku0avusy7JizYw==",
+      "path": "servicestack.text/3.9.58",
+      "hashPath": "servicestack.text.3.9.58.nupkg.sha512"
     },
     "System.CodeDom/4.7.0": {
       "type": "package",

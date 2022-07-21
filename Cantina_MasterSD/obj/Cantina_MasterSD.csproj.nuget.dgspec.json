@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.7, )"
+            },
+            "Momentum.Pm.PortalApi": {
+              "target": "Package",
+              "version": "[5.18.3.201, )"
             }
           },
           "imports": [

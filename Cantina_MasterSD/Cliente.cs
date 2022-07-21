@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,49 +9,15 @@ namespace Cantina_MasterSD
 {
     public class Cliente
     {
-        private String nome;
-        private String telefone;
-        private String cpfcnpj;
-        private String endereco;
+        private String nome { get; set; }
+        private String telefone { get; set; }
+        private String cpfcnpj { get; set; }
+        private String endereco { get; set; }
+       
+        [Key] 
+        public int IdCliente { get; set; }
+      
 
-        public String GetNome()
-        {
-            return this.nome;
-        }
 
-        public void SetNome(String nome)
-        {
-            this.nome = nome;
-        }
-
-        public String GetTelefone()
-        {
-            return this.telefone;
-        }
-
-        public void SetTelefone(String telefone)
-        {
-            this.telefone = telefone;
-        }
-
-        public String GetCpfCnpj()
-        {
-            return this.cpfcnpj;
-        }
-
-        public void SetCpfCnpj(String cpfcnpj)
-        {
-            this.cpfcnpj = cpfcnpj;
-        }
-
-        public String GetEndereco()
-        {
-            return this.endereco;
-        }
-
-        public void SetEndereco(String endereco)
-        {
-            this.endereco = endereco;
-        }
     }
 }
