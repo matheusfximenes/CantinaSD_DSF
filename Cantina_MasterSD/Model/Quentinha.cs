@@ -10,14 +10,15 @@ namespace Cantina_MasterSD
     public class Quentinha
     {
         [Required]
-        private String nome { get; set; }
-        
+        public String Nome { get; set; }
+
+        public String Descricao { get; set; }  // Conteudo da quentinha
         [Required]
-        private String descricao { get; set; }  // Conteudo da quentinha
-        [Required] 
-        private Decimal preco { get; set; }   // Valor
+        public Decimal Preco { get; set; }   // Valor
 
         [Key]
-        public int QuentinhaId { get; set; } 
+        public int QuentinhaId { get; set; }
+
+
     }
 }

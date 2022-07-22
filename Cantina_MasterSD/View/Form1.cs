@@ -1,3 +1,5 @@
+using Cantina_MasterSD.Model;
+
 namespace Cantina_MasterSD
 {
     public partial class Form1 : Form

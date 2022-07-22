@@ -9,14 +9,15 @@ namespace Cantina_MasterSD
 {
     public class Cliente
     {
-        private String nome { get; set; }
-        private String telefone { get; set; }
-        private String cpfcnpj { get; set; }
-        private String endereco { get; set; }
-       
-        [Key] 
+        public String Nome { get; set; }
+        public String Telefone { get; set; }
+        public String CpfCnpj { get; set; }
+
+        public String Endereco { get; set; }
+
+        [Key]
         public int IdCliente { get; set; }
-      
+
 
 
     }
