@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="View\AutenticacaoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\AuthCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\CancelarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\ClientePedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\ExcluirCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\ExcluirQuentinha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\NovaQuentinha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\NovoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\NovoPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\PainelAdministrativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\PainelCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\RelatorioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\RelatorioClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\RelatorioFinancas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\RelatorioPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\RelatorioQuentinhas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
